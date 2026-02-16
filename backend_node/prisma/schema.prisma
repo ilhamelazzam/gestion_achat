@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Department {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model User {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  passwordHash String
+  fullName     String
+  phone        String?  @db.VarChar(32)
+  department   String?
+  isAdmin      Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  passwordResetCodes PasswordResetCode[]
+}
+
+// Produits de l'inventaire
+model Product {
+  id           Int      @id @default(autoincrement())
+  name         String
+  department   String?
+  quantity     Int      @default(0)
+  minThreshold Int      @default(0)
+  supplier     String?
+  dateAdded    DateTime @default(now())
+  price        Float    @default(0)
+  image        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  orders       Order[]
+}
+
+
+// Commandes
+model Order {
+  id            Int      @id @default(autoincrement())
+  customer      String
+  email         String?
+  date          DateTime @default(now())
+  status        String   @default("En attente")
+  items         Int      @default(1)
+  total         Float    @default(0)
+  productId     Int?
+  product       Product? @relation(fields: [productId], references: [id])
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+
+// Fournisseurs
+model Supplier {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String?  @unique
+  phone     String?  @db.VarChar(32)
+  address   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Demandes d'achat
+model Request {
+  id              Int      @id @default(autoincrement())
+  requestNumber   String   @unique // #REQ-001
+  userId          Int
+  userEmail       String
+  userName        String
+  userDepartment  String?
+  productId       Int?
+  productName     String
+  quantity        Int      @default(1)
+  urgency         String   @default("Normale") // Normale, Urgente, Très urgente
+  justification   String   @db.Text
+  estimatedCost   Float    @default(0)
+  status          String   @default("En attente") // En attente, Approuvée, Rejetée, En cours, Livrée
+  rejectionReason String?  @db.Text
+  approvedBy      Int?
+  approvedAt      DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model PasswordResetCode {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  codeHash  String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+

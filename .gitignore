@@ -1,0 +1,26 @@
+﻿# Dependencies
+backend_node/node_modules/
+frontend/node_modules/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env
+backend_node/.env
+
+# Build outputs
+frontend/build/
+backend_node/dist/
+
+# Prisma generated client cache
+backend_node/prisma/generated/
+
+# Editor
+.vscode/
+.DS_Store
+.git/
+.git2/
+frontend/.git/
+backend_node/.git/
+frontend/.git.bak/
