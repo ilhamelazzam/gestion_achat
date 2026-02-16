@@ -139,47 +139,45 @@ Captures incluses :
 
 ---
 
-## Captures d'ecran
+📸 Captures d’Écran
 
-Le dossier `captures/` contient toutes les illustrations ci-dessous :
+Le dossier captures/ contient toutes les illustrations du système.
 
-![Capture 1](captures/capture1.png)
-![Capture 2](captures/capture2.png)
-![Capture 3](captures/capture3.png)
-![Capture 4](captures/capture4.png)
-![Capture 5](captures/capture5.png)
-![Capture 6](captures/capture6.png)
-![Capture 7](captures/capture7.png)
-![Capture 8](captures/capture8.png)
-![Capture 9](captures/capture9.png)
-![Capture 10](captures/capture10.png)
-![Capture 11](captures/capture11.png)
-![Capture 12](captures/capture12.png)
-![Capture 13](captures/capture13.png)
-![Capture 14](captures/capture14.png)
-![Capture 15](captures/capture15.png)
-![Capture 16](captures/capture16.png)
-![Capture 17](captures/capture17.png)
-![Capture 18](captures/capture18.png)
-![Capture 19](captures/capture19.png)
-![Capture 20](captures/capture20.png)
-![Capture 21](captures/capture21.png)
-![Capture 22](captures/capture22.png)
-![Capture 23](captures/capture23.png)
-![Capture 24](captures/capture24.png)
-![Capture 25](captures/capture25.png)
-![Capture 26](captures/capture26.png)
-![Capture 27](captures/capture27.png)
-![Capture 28](captures/capture28.png)
-![Capture 29](captures/capture29.png)
-![Capture 30](captures/capture30.png)
-![Capture 31](captures/capture31.png)
-![Capture 32](captures/capture32.png)
-![Capture 33](captures/capture33.png)
-![Capture 34](captures/capture34.png)
-![Capture 35](captures/capture35.png)
+🔵 Espace Administrateur
 
----
+L’administrateur dispose d’un accès complet au système pour la gestion globale.
+
+🔐 Authentification
+
+📊 Dashboard Administrateur
+
+👥 Gestion des Utilisateurs
+
+📦 Gestion des Produits
+
+🛒 Validation des Demandes d’Achat
+
+📑 Gestion des Commandes Fournisseurs
+
+📈 Rapports & Statistiques
+
+⚙ Paramètres Système
+
+🟢 Espace Chef de Département (Utilisateur)
+
+Le chef de département peut créer et suivre ses demandes d’achat.
+
+🔐 Authentification Utilisateur
+
+📊 Dashboard Utilisateur
+
+📝 Création d’une Demande d’Achat
+
+🔎 Suivi des Statuts
+
+📦 Consultation du Stock
+
+👤 Gestion du Profil
 
 ## Perspectives d'Amelioration
 
@@ -216,3 +214,4 @@ Il demontre la coherence entre :
 - Conception
 - Implementation
 - Resultats
+
