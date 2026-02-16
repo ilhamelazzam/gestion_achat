@@ -142,7 +142,7 @@ Captures incluses :
 ## Captures d'ecran
 
 Le dossier `captures/` contient toutes les illustrations ci-dessous :
-
+## Partie administrateur 
 ![Capture 1](captures/capture1.png)
 ![Capture 2](captures/capture2.png)
 ![Capture 3](captures/capture3.png)
@@ -150,11 +150,6 @@ Le dossier `captures/` contient toutes les illustrations ci-dessous :
 ![Capture 5](captures/capture5.png)
 ![Capture 6](captures/capture6.png)
 ![Capture 7](captures/capture7.png)
-![Capture 8](captures/capture8.png)
-![Capture 9](captures/capture9.png)
-![Capture 10](captures/capture10.png)
-![Capture 11](captures/capture11.png)
-![Capture 12](captures/capture12.png)
 ![Capture 13](captures/capture13.png)
 ![Capture 14](captures/capture14.png)
 ![Capture 15](captures/capture15.png)
@@ -170,6 +165,12 @@ Le dossier `captures/` contient toutes les illustrations ci-dessous :
 ![Capture 25](captures/capture25.png)
 ![Capture 26](captures/capture26.png)
 ![Capture 27](captures/capture27.png)
+## Partie utilisateur  
+![Capture 8](captures/capture8.png)
+![Capture 9](captures/capture9.png)
+![Capture 10](captures/capture10.png)
+![Capture 11](captures/capture11.png)
+![Capture 12](captures/capture12.png)
 ![Capture 28](captures/capture28.png)
 ![Capture 29](captures/capture29.png)
 ![Capture 30](captures/capture30.png)
@@ -216,4 +217,5 @@ Il demontre la coherence entre :
 - Conception
 - Implementation
 - Resultats
+
 
