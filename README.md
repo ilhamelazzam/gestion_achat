@@ -143,9 +143,13 @@ Captures incluses :
 ## Captures d'ecran
 
 Le dossier `captures/` contient toutes les illustrations ci-dessous :
+
 ---
-## Partie administrateur 
+
+## Partie administrateur
+
 ---
+
 ![Capture 1](captures/capture1.png)
 ![Capture 2](captures/capture2.png)
 ![Capture 3](captures/capture3.png)
@@ -196,14 +200,6 @@ Le dossier `captures/` contient toutes les illustrations ci-dessous :
 
 ---
 
-## Rapport Complet
-
-Le rapport detaille du projet est disponible dans le fichier :
-
-`rapport de stage.pdf`
-
----
-
 ## Conclusion
 
 Ce projet represente une solution complete de digitalisation du processus d'achat et de gestion de stock.
@@ -222,6 +218,7 @@ Il demontre la coherence entre :
 - Conception
 - Implementation
 - Resultats
+
 
 
 
