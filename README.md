@@ -28,18 +28,6 @@ Le systeme permet de gerer :
 
 ---
 
-## Contexte
-
-Avant ce projet, la gestion du stock s'appuyait sur **SAP**, mais certaines operations restaient complexes ou peu adaptees aux besoins internes.
-
-La problematique principale etait :
-
-> Comment centraliser et automatiser la gestion du stock afin d'ameliorer la tracabilite, la rapidite et la fiabilite des operations ?
-
-Ce projet apporte une solution moderne, ergonomique et integree.
-
----
-
 ## Technologies Utilisees
 
 ### Backend
@@ -143,6 +131,13 @@ Captures incluses :
 - Aide a la prise de decision
 
 ---
+## La conception
+
+<img width="2108" height="1372" alt="UseCase Diagram0" src="https://github.com/user-attachments/assets/fd133675-be09-447c-ab06-2c5958a3768b" />
+<img width="1298" height="1137" alt="Class Diagram0" src="https://github.com/user-attachments/assets/da7d592d-eb54-43b0-8620-d15274f14a56" />
+<img width="2685" height="1448" alt="Sequence Diagram0" src="https://github.com/user-attachments/assets/a169d385-c722-4bd6-a16e-0e9754e2794f" />
+
+---
 
 ## Captures d'ecran
 
@@ -221,11 +216,3 @@ Il demontre la coherence entre :
 - Conception
 - Implementation
 - Resultats
-
----
-
-Si besoin :
-- Version README plus courte pour GitHub
-- Version encore plus professionnelle (niveau entreprise)
-- Version adaptee pour portfolio LinkedIn
-- Version en anglais
